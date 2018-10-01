@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.microprofile-ext</groupId>
+        <artifactId>config-ext</artifactId>
+        <version>1.0.2-SNAPSHOT</version>
+    </parent>
+    <artifactId>configsource-file-properties-external</artifactId>
+    <name>Microprofile Config Extensions :: External properties file config source</name>
+    <description>A config that gets its values from a properties file on the file system</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.github.t1</groupId>
+            <artifactId>logging-interceptor</artifactId>
+            <version>3.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.config</groupId>
+            <artifactId>geronimo-config-impl</artifactId>
+            <version>1.2</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>bintray-t1-javaee-helpers</id>
+            <name>bintray</name>
+            <url>https://dl.bintray.com/t1/javaee-helpers</url>
+        </repository>
+    </repositories>
+</project>

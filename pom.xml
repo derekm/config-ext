@@ -103,6 +103,7 @@
         <module>configsource-etcd</module>
         <module>configconverter-list</module>
         <module>configconverter-json</module>
+        <module>configsource-file-properties-external</module>
     </modules>
     
     <profiles>
