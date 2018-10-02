@@ -5,7 +5,7 @@ import com.github.t1.log.Logged;
 import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Paths;
-import org.apache.geronimo.config.configsource.PropertyFileConfigSource;
+import org.microprofileext.configsource.url.properties.PropertyFileConfigSource;
 
 /**
  * Use an external {@code .properties} file on the default file system to

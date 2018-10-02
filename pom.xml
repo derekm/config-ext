@@ -104,6 +104,8 @@
         <module>configconverter-list</module>
         <module>configconverter-json</module>
         <module>configsource-file-properties-external</module>
+        <module>configsource-url-properties</module>
+        <module>configsource-base</module>
     </modules>
     
     <profiles>

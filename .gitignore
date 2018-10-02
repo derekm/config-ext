@@ -27,3 +27,5 @@ hs_err_pid*
 /configconverter-list/target/
 /configconverter-json/target/
 /configsource-file-properties-external/target/
+/configsource-base/target/
+/configsource-url-properties/target/
